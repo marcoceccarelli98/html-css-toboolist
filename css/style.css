@@ -9,10 +9,31 @@ body {
     background-color: lightgray;
 }
 
+.container {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* HEADER */
+
+header {
+    background-color: white;
+}
 
 h1 {
     display: inline;
+    vertical-align: middle;
+    font-weight: 700;
 }
 
-.logo {}
+.logo {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+/* MAIN */
+
+ul {
+    list-style-type: none;
+}
