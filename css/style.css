@@ -13,6 +13,30 @@ body {
     margin-left: 20px;
 }
 
+.editorial {
+    background-color: rgb(51, 170, 244);
+}
+
+.q1_goals {
+    background-color: rgb(164, 67, 255);
+}
+
+.recruiting {
+    background-color: rgb(20, 226, 157);
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: deeppink;
+}
+
+.sales {
+    background-color: rgb(60, 200, 0);
+}
+
 /* HEADER */
 
 header {
@@ -48,7 +72,7 @@ h1 {
 
 .button-task {
     border: 0;
-    background-color: lightskyblue;
+    background-color: rgb(51, 170, 244);
     padding: 5px;
     border-radius: 5px;
     color: white;
@@ -73,6 +97,11 @@ h1 {
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 45px;
 }
 
 .first-line {
@@ -100,7 +129,9 @@ h1 {
     margin-right: 8px;
 }
 
-ul {
-    list-style-type: none;
-    line-height: 40px;
+.tag {
+    font-size: 12px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
 }
