@@ -73,7 +73,10 @@ h1 {
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 40px;
+}
 
+.first-line {
+    margin-top: -15px;
 }
 
 .check {
@@ -85,8 +88,19 @@ h1 {
     margin-right: 8px;
 }
 
-.cross {}
+.cross {
+    color: red;
+    font-size: 10px;
+    border: 0.1px solid;
+    border-radius: 50%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-right: 8px;
+}
 
 ul {
     list-style-type: none;
+    line-height: 40px;
 }
