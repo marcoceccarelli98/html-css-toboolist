@@ -9,11 +9,7 @@ body {
     background-color: lightgray;
 }
 
-.container {
-    background-color: white;
-    width: 70%;
-    margin: 0 auto;
-}
+
 
 /* HEADER */
 
@@ -34,6 +30,19 @@ h1 {
 
 /* MAIN */
 
+.button-container {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.list-container {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
 ul {
+    margin-left: 5%;
     list-style-type: none;
 }
